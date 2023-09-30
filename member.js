@@ -1,12 +1,15 @@
-function skillsMember()
-{
-    var skills = ["HTML", "CSS", "JS", "PHP", "MySQL"];
-    var member = {
-        name: "John",
-        age: 25,
-        skills: skills
-    };
-    console.log(member.skills[2]);
+function skillsMember() {
+    var member = document.getElementById("member");
+    var skills = document.getElementById("skills");
+    var projects = document.getElementById("projects");
+    var contact = document.getElementById("contact");
+    var about = document.getElementById("about");
+    var member = document.getElementById("member");
+    member.style.display = "block";
+    skills.style.display = "none";
+    projects.style.display = "none";
+    contact.style.display = "none";
+    about.style.display = "none";
 }
 
 
