@@ -27,4 +27,3 @@ app.get('/loaderio-2f0b3a1b7f3a0b9e0d5e3c4a9b8c8b9b', (req, res) => res.sendFile
 // app.get('/products/:productId', (req, res) => res.sendFile(path.join(__dirname, '../public/index.html')));
 app.get('/products/:productId', (req, res) => res.sendFile(path.join(__dirname, '../client/dist/index.html')));
 
-// app.get('/products/:productId
